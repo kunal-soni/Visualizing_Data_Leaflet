@@ -98,7 +98,7 @@ function createMap(earthquakes) {
   var myMap = L.map("map", {
     center: [37.09, -95.71],
     zoom: 5,
-    layers: [streetmap, earthquakes,tectonicPlates]
+    layers: [streetmap, darkmap, earthquakes,tectonicPlates]
   });
 
   // Create a layer control
